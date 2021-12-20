@@ -1,0 +1,635 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2021-10-30T16:21:29.497+05:30"
+        cq:lastModifiedBy="admin"
+        cq:tags="[]"
+        cq:template="/conf/boighor/settings/wcm/templates/experience-fragment-web-variation-template"
+        cq:xfMasterVariation="{Boolean}true"
+        cq:xfVariantType="web"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Custom Header"
+        sling:resourceType="boighor/components/structure/xfpage">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <responsivegrid
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+                <header_body_1267245506
+                    jcr:created="{Date}2021-10-29T15:03:47.893+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-10-30T13:07:25.318+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="boighor/components/content/custom-component/header-body"
+                    logo="/content/dam/boighor/images/logo/logo.png"
+                    logoAlterTitle="logo images"
+                    logoLInkURL="/content/boighor/us/en/index">
+                    <_x0030_
+                        jcr:lastModified="{Date}2021-10-29T19:28:16.902+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="boighor/components/content/custom-component/simple-list"
+                        isFirst="yes"
+                        listTitle="Home"
+                        listURL="/content/boighor/us/en/index"/>
+                    <_x0032_
+                        jcr:lastModified="{Date}2021-10-30T13:17:39.952+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="boighor/components/content/custom-component/shopcart"
+                        bottomButtonHref="/content/boighor/us/en/index"
+                        bottomButtonTitle="View and edit cart"
+                        buttonHref="/content/boighor/us/en/index"
+                        buttonTitle="Go to Checkout"
+                        cartCount="3"
+                        cartTotal="66"
+                        closeTitle="close"
+                        listTitle="Contact"
+                        listURL="/content/boighor/us/en/index"
+                        navTitle="Books"
+                        subTotalTitle="Cart Subtotal">
+                        <megaMenuList jcr:primaryType="nt:unstructured">
+                            <item0 jcr:primaryType="nt:unstructured">
+                                <megaMenuListData jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        jcr:primaryType="nt:unstructured"
+                                        navMegaMenuLInk="/content/boighor/us/en/index"
+                                        navMegaMenuTitle="Categories"/>
+                                    <item1
+                                        jcr:primaryType="nt:unstructured"
+                                        navMegaMenuLInk="/content/boighor/us/en/index"
+                                        navMegaMenuTitle="Biography"/>
+                                    <item2
+                                        jcr:primaryType="nt:unstructured"
+                                        navMegaMenuLInk="/content/boighor/us/en/index"
+                                        navMegaMenuTitle="Business"/>
+                                    <item3
+                                        jcr:primaryType="nt:unstructured"
+                                        navMegaMenuLInk="/content/boighor/us/en/index"
+                                        navMegaMenuTitle="Cookbooks"/>
+                                    <item4
+                                        jcr:primaryType="nt:unstructured"
+                                        navMegaMenuLInk="/content/boighor/us/en/index"
+                                        navMegaMenuTitle="Health &amp; Fitness "/>
+                                    <item5
+                                        jcr:primaryType="nt:unstructured"
+                                        navMegaMenuLInk="/content/boighor/us/en/index"
+                                        navMegaMenuTitle="History"/>
+                                </megaMenuListData>
+                            </item0>
+                            <item1 jcr:primaryType="nt:unstructured">
+                                <megaMenuListData jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        jcr:primaryType="nt:unstructured"
+                                        navMegaMenuLInk="/content/boighor/us/en/index"
+                                        navMegaMenuTitle="Customer Favourite"/>
+                                    <item1
+                                        jcr:primaryType="nt:unstructured"
+                                        navMegaMenuLInk="/content/boighor/us/en/index"
+                                        navMegaMenuTitle="Mystery"/>
+                                    <item2
+                                        jcr:primaryType="nt:unstructured"
+                                        navMegaMenuLInk="/content/boighor/us/en/index"
+                                        navMegaMenuTitle="Religion &amp; Inspiration"/>
+                                    <item3
+                                        jcr:primaryType="nt:unstructured"
+                                        navMegaMenuLInk="/content/boighor/us/en/index"
+                                        navMegaMenuTitle="Romance"/>
+                                    <item4
+                                        jcr:primaryType="nt:unstructured"
+                                        navMegaMenuLInk="/content/boighor/us/en/index"
+                                        navMegaMenuTitle="Fiction/Fantasy"/>
+                                    <item5
+                                        jcr:primaryType="nt:unstructured"
+                                        navMegaMenuLInk="/content/boighor/us/en/index"
+                                        navMegaMenuTitle="Sleeveless"/>
+                                </megaMenuListData>
+                            </item1>
+                            <item2 jcr:primaryType="nt:unstructured">
+                                <megaMenuListData jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        jcr:primaryType="nt:unstructured"
+                                        navMegaMenuLInk="/content/boighor/us/en/index"
+                                        navMegaMenuTitle="Collections"/>
+                                    <item1
+                                        jcr:primaryType="nt:unstructured"
+                                        navMegaMenuLInk="/content/boighor/us/en/index"
+                                        navMegaMenuTitle="Science"/>
+                                    <item2
+                                        jcr:primaryType="nt:unstructured"
+                                        navMegaMenuLInk="/content/boighor/us/en/index"
+                                        navMegaMenuTitle="Fiction/Fantasy"/>
+                                    <item3
+                                        jcr:primaryType="nt:unstructured"
+                                        navMegaMenuLInk="/content/boighor/us/en/index"
+                                        navMegaMenuTitle="Self-Improvemen"/>
+                                    <item4
+                                        jcr:primaryType="nt:unstructured"
+                                        navMegaMenuLInk="/content/boighor/us/en/index"
+                                        navMegaMenuTitle="Home &amp; Garden"/>
+                                    <item5
+                                        jcr:primaryType="nt:unstructured"
+                                        navMegaMenuLInk="/content/boighor/us/en/index"
+                                        navMegaMenuTitle="Humor Books"/>
+                                </megaMenuListData>
+                            </item2>
+                        </megaMenuList>
+                        <cartList jcr:primaryType="nt:unstructured">
+                            <item0
+                                jcr:primaryType="nt:unstructured"
+                                isFirst="yes"
+                                productCount="01"
+                                productImage="/content/dam/boighor/images/product/sm-3/1.jpg"
+                                productLInk="/content/boighor/us/en/index"
+                                productPrice="30"
+                                productTitle="Voyage Yoga Bag"/>
+                            <item1
+                                jcr:primaryType="nt:unstructured"
+                                productCount="03"
+                                productImage="/content/dam/boighor/images/product/sm-3/3.jpg"
+                                productLInk="/content/boighor/us/en/index"
+                                productPrice="40"
+                                productTitle="Impulse Duffle"/>
+                            <item2
+                                jcr:primaryType="nt:unstructured"
+                                productCount="1"
+                                productImage="/content/dam/boighor/images/product/sm-3/2.jpg"
+                                productLInk="/content/boighor/us/en/index"
+                                productPrice="40"
+                                productTitle="Compete Track Tote"/>
+                        </cartList>
+                    </_x0032_>
+                    <_x0031_
+                        jcr:lastModified="{Date}2021-10-29T18:13:45.016+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="boighor/components/content/custom-component/list-with-megamenu"
+                        listTitle="Contact"
+                        listURL="/content/boighor/us/en/index"
+                        navTitle="Shop">
+                        <megaMenuList jcr:primaryType="nt:unstructured">
+                            <item0 jcr:primaryType="nt:unstructured">
+                                <megaMenuListData jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        jcr:primaryType="nt:unstructured"
+                                        navMegaMenuLInk="/content/boighor/us/en/index"
+                                        navMegaMenuTitle="Shop Layout"/>
+                                    <item1
+                                        jcr:primaryType="nt:unstructured"
+                                        navMegaMenuLInk="/content/boighor/us/en/index"
+                                        navMegaMenuTitle="Shop Grid"/>
+                                    <item2
+                                        jcr:primaryType="nt:unstructured"
+                                        navMegaMenuLInk="/content/boighor/us/en/index"
+                                        navMegaMenuTitle="Single Product"/>
+                                </megaMenuListData>
+                            </item0>
+                            <item1 jcr:primaryType="nt:unstructured">
+                                <megaMenuListData jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        jcr:primaryType="nt:unstructured"
+                                        navMegaMenuLInk="/content/boighor/us/en/index"
+                                        navMegaMenuTitle="Shop Page"/>
+                                    <item1
+                                        jcr:primaryType="nt:unstructured"
+                                        navMegaMenuLInk="/content/boighor/us/en/index"
+                                        navMegaMenuTitle="My Account"/>
+                                    <item2
+                                        jcr:primaryType="nt:unstructured"
+                                        navMegaMenuLInk="/content/boighor/us/en/index"
+                                        navMegaMenuTitle="Cart Page"/>
+                                    <item3
+                                        jcr:primaryType="nt:unstructured"
+                                        navMegaMenuLInk="/content/boighor/us/en/index"
+                                        navMegaMenuTitle="Checkout Page"/>
+                                    <item4
+                                        jcr:primaryType="nt:unstructured"
+                                        navMegaMenuLInk="/content/boighor/us/en/index"
+                                        navMegaMenuTitle="Wishlist Page"/>
+                                    <item5
+                                        jcr:primaryType="nt:unstructured"
+                                        navMegaMenuLInk="/content/boighor/us/en/index"
+                                        navMegaMenuTitle="404 Page"/>
+                                    <item6
+                                        jcr:primaryType="nt:unstructured"
+                                        navMegaMenuLInk="/content/boighor/us/en/index"
+                                        navMegaMenuTitle="Faq Page"/>
+                                </megaMenuListData>
+                            </item1>
+                            <item2 jcr:primaryType="nt:unstructured">
+                                <megaMenuListData jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        jcr:primaryType="nt:unstructured"
+                                        navMegaMenuLInk="/content/boighor/us/en/index"
+                                        navMegaMenuTitle="Bargain Books"/>
+                                    <item1
+                                        jcr:primaryType="nt:unstructured"
+                                        navMegaMenuLInk="/content/boighor/us/en/index"
+                                        navMegaMenuTitle="Bargain Bestsellers"/>
+                                    <item2
+                                        jcr:primaryType="nt:unstructured"
+                                        navMegaMenuLInk="/content/boighor/us/en/index"
+                                        navMegaMenuTitle="Activity Kits"/>
+                                    <item3
+                                        jcr:primaryType="nt:unstructured"
+                                        navMegaMenuLInk="/content/boighor/us/en/index"
+                                        navMegaMenuTitle="B&amp;N Classics"/>
+                                    <item4
+                                        jcr:primaryType="nt:unstructured"
+                                        navMegaMenuLInk="/content/boighor/us/en/index"
+                                        navMegaMenuTitle="Books Under $5"/>
+                                    <item5
+                                        jcr:primaryType="nt:unstructured"
+                                        navMegaMenuLInk="/content/boighor/us/en/index"
+                                        navMegaMenuTitle="Bargain Books"/>
+                                </megaMenuListData>
+                            </item2>
+                        </megaMenuList>
+                    </_x0031_>
+                    <_x0033_
+                        jcr:lastModified="{Date}2021-10-30T15:22:38.591+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="boighor/components/content/custom-component/setting"
+                        listTitle="Contact"
+                        listURL="/content/boighor/us/en/index"
+                        navTitle="Kids">
+                        <megaMenuList jcr:primaryType="nt:unstructured">
+                            <item0 jcr:primaryType="nt:unstructured">
+                                <megaMenuListData jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        jcr:primaryType="nt:unstructured"
+                                        navMegaMenuLInk="/content/boighor/us/en/index"
+                                        navMegaMenuTitle="Top Collections"/>
+                                    <item1
+                                        jcr:primaryType="nt:unstructured"
+                                        navMegaMenuLInk="/content/boighor/us/en/index"
+                                        navMegaMenuTitle="American Girl"/>
+                                    <item2
+                                        jcr:primaryType="nt:unstructured"
+                                        navMegaMenuLInk="/content/boighor/us/en/index"
+                                        navMegaMenuTitle="Diary Wimpy Kid"/>
+                                    <item3
+                                        jcr:primaryType="nt:unstructured"
+                                        navMegaMenuLInk="/content/boighor/us/en/index"
+                                        navMegaMenuTitle="Finding Dory"/>
+                                    <item4
+                                        jcr:primaryType="nt:unstructured"
+                                        navMegaMenuLInk="/content/boighor/us/en/index"
+                                        navMegaMenuTitle="Harry Potter"/>
+                                    <item5
+                                        jcr:primaryType="nt:unstructured"
+                                        navMegaMenuLInk="/content/boighor/us/en/index"
+                                        navMegaMenuTitle="Land of Stories"/>
+                                </megaMenuListData>
+                            </item0>
+                            <item1 jcr:primaryType="nt:unstructured">
+                                <megaMenuListData jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        jcr:primaryType="nt:unstructured"
+                                        navMegaMenuLInk="/content/boighor/us/en/index"
+                                        navMegaMenuTitle="More For Kids"/>
+                                    <item1
+                                        jcr:primaryType="nt:unstructured"
+                                        navMegaMenuLInk="/content/boighor/us/en/index"
+                                        navMegaMenuTitle="B&amp;N Educators"/>
+                                    <item2
+                                        jcr:primaryType="nt:unstructured"
+                                        navMegaMenuLInk="/content/boighor/us/en/index"
+                                        navMegaMenuTitle="B&amp;N Kids' Club"/>
+                                    <item3
+                                        jcr:primaryType="nt:unstructured"
+                                        navMegaMenuLInk="/content/boighor/us/en/index"
+                                        navMegaMenuTitle="Kids' Music"/>
+                                    <item4
+                                        jcr:primaryType="nt:unstructured"
+                                        navMegaMenuLInk="/content/boighor/us/en/index"
+                                        navMegaMenuTitle="Toys &amp; Games"/>
+                                    <item5
+                                        jcr:primaryType="nt:unstructured"
+                                        navMegaMenuLInk="/content/boighor/us/en/index"
+                                        navMegaMenuTitle="Hoodies"/>
+                                </megaMenuListData>
+                            </item1>
+                        </megaMenuList>
+                        <settingsContentList jcr:primaryType="nt:unstructured">
+                            <item0
+                                jcr:primaryType="nt:unstructured"
+                                subTitle="USD - US Dollar"
+                                title="Currency">
+                                <switcherDropdownList jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        jcr:primaryType="nt:unstructured"
+                                        dropDownData="GBP - British Pound Sterling"/>
+                                    <item1
+                                        jcr:primaryType="nt:unstructured"
+                                        dropDownData="EUR - Euro"/>
+                                </switcherDropdownList>
+                            </item0>
+                            <item1
+                                jcr:primaryType="nt:unstructured"
+                                subTitle="English01"
+                                title="Language">
+                                <switcherDropdownList jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        jcr:primaryType="nt:unstructured"
+                                        dropDownData="English02"/>
+                                    <item1
+                                        jcr:primaryType="nt:unstructured"
+                                        dropDownData="English03"/>
+                                    <item2
+                                        jcr:primaryType="nt:unstructured"
+                                        dropDownData="English04"/>
+                                    <item3
+                                        jcr:primaryType="nt:unstructured"
+                                        dropDownData="English05"/>
+                                </switcherDropdownList>
+                            </item1>
+                            <item2
+                                jcr:primaryType="nt:unstructured"
+                                subTitle="Fashion Store"
+                                title="Select Store">
+                                <switcherDropdownList jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        jcr:primaryType="nt:unstructured"
+                                        dropDownData="Furniture"/>
+                                    <item1
+                                        jcr:primaryType="nt:unstructured"
+                                        dropDownData="Shoes"/>
+                                    <item2
+                                        jcr:primaryType="nt:unstructured"
+                                        dropDownData="Speaker Store"/>
+                                    <item3
+                                        jcr:primaryType="nt:unstructured"
+                                        dropDownData="Furniture"/>
+                                </switcherDropdownList>
+                            </item2>
+                            <item3
+                                jcr:primaryType="nt:unstructured"
+                                isSettingMenu="yes"
+                                title="My Account">
+                                <switcherDropdownList jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        jcr:primaryType="nt:unstructured"
+                                        dropDownData="Compare Product"/>
+                                    <item1
+                                        jcr:primaryType="nt:unstructured"
+                                        dropDownData="My Account"/>
+                                    <item2
+                                        jcr:primaryType="nt:unstructured"
+                                        dropDownData="My Wishlist"/>
+                                    <item3
+                                        jcr:primaryType="nt:unstructured"
+                                        dropDownData="Sign In"/>
+                                    <item4
+                                        jcr:primaryType="nt:unstructured"
+                                        dropDownData="Create An Account"/>
+                                </switcherDropdownList>
+                            </item3>
+                        </settingsContentList>
+                    </_x0033_>
+                    <_x0034_
+                        jcr:lastModified="{Date}2021-10-29T19:13:48.125+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="boighor/components/content/custom-component/list-with-megamenu-dropdown"
+                        listTitle="Contact"
+                        listURL="/content/boighor/us/en/index"
+                        navTitle="Page">
+                        <megaMenuDropDownList jcr:primaryType="nt:unstructured">
+                            <item0
+                                jcr:primaryType="nt:unstructured"
+                                navLInk="/content/boighor/us/en/index"
+                                navTitle="About Page"/>
+                            <item1
+                                jcr:primaryType="nt:unstructured"
+                                isParent="yes"
+                                navLInk="/content/boighor/us/en/index"
+                                navTitle="Portfolio">
+                                <megaMenuDropDownListData jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        jcr:primaryType="nt:unstructured"
+                                        navMegaMenuDDLInk="/content/boighor/us/en/index"
+                                        navMegaMenuDDTitle="Portfolio"/>
+                                    <item1
+                                        jcr:primaryType="nt:unstructured"
+                                        navMegaMenuDDLInk="/content/boighor/us/en/index"
+                                        navMegaMenuDDTitle="Portfolio Details"/>
+                                </megaMenuDropDownListData>
+                            </item1>
+                            <item2
+                                jcr:primaryType="nt:unstructured"
+                                navLInk="/content/boighor/us/en/index"
+                                navTitle="My Account"/>
+                            <item3
+                                jcr:primaryType="nt:unstructured"
+                                navLInk="/content/boighor/us/en/index"
+                                navTitle="Cart Page"/>
+                            <item4
+                                jcr:primaryType="nt:unstructured"
+                                navLInk="/content/boighor/us/en/index"
+                                navTitle="Checkout Page"/>
+                            <item5
+                                jcr:primaryType="nt:unstructured"
+                                navLInk="/content/boighor/us/en/index"
+                                navTitle="Wishlist Page"/>
+                            <item6
+                                jcr:primaryType="nt:unstructured"
+                                navLInk="/content/boighor/us/en/index"
+                                navTitle="404 Page"/>
+                            <item7
+                                jcr:primaryType="nt:unstructured"
+                                navLInk="/content/boighor/us/en/index"
+                                navTitle="Faq Page"/>
+                            <item8
+                                jcr:primaryType="nt:unstructured"
+                                navLInk="/content/boighor/us/en/index"
+                                navTitle="Team Page"/>
+                        </megaMenuDropDownList>
+                    </_x0034_>
+                    <_x0035_
+                        jcr:lastModified="{Date}2021-10-29T19:13:14.129+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="boighor/components/content/custom-component/list-with-megamenu-dropdown"
+                        listTitle="Contact"
+                        navTitle="Blog">
+                        <megaMenuDropDownList jcr:primaryType="nt:unstructured">
+                            <item0
+                                jcr:primaryType="nt:unstructured"
+                                navTitle="Blog Page"/>
+                            <item1
+                                jcr:primaryType="nt:unstructured"
+                                navTitle="Blog Details"/>
+                        </megaMenuDropDownList>
+                    </_x0035_>
+                    <_x0036_
+                        jcr:lastModified="{Date}2021-10-29T19:06:12.425+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="boighor/components/content/custom-component/simple-list"
+                        listTitle="Contact"
+                        listURL="/content/boighor/us/en/index"/>
+                    <navList jcr:primaryType="nt:unstructured">
+                        <item0
+                            jcr:primaryType="nt:unstructured"
+                            component="simple-list"
+                            navLInk="/content/boighor/us/en/index"
+                            navTitle="Home"/>
+                        <item1
+                            jcr:primaryType="nt:unstructured"
+                            component="list-with-megamenu"
+                            navLInk="/content/boighor/us/en/index"
+                            navTitle="Shop"/>
+                        <item2
+                            jcr:primaryType="nt:unstructured"
+                            component="list-with-megamenu"
+                            navLInk="/content/boighor/us/en/index"
+                            navTitle="BOOKS"/>
+                        <item3
+                            jcr:primaryType="nt:unstructured"
+                            component="list-with-megamenu"
+                            navLInk="/content/boighor/us/en/index"
+                            navTitle="KIDS"/>
+                        <item4
+                            jcr:primaryType="nt:unstructured"
+                            component="list-with-megamenu-dropdown"
+                            navLInk="/content/boighor/us/en/index"
+                            navTitle="PAGS"/>
+                        <item5
+                            jcr:primaryType="nt:unstructured"
+                            component="list-with-megamenu-dropdown"
+                            navLInk="/content/boighor/us/en/index"
+                            navTitle="Blog"/>
+                        <item6
+                            jcr:primaryType="nt:unstructured"
+                            component="simple-list"
+                            navLInk="/content/boighor/us/en/index"
+                            navTitle="Contact"/>
+                    </navList>
+                    <headerSideBarList jcr:primaryType="nt:unstructured">
+                        <item0
+                            jcr:primaryType="nt:unstructured"
+                            component="shop_search"/>
+                        <item1
+                            jcr:primaryType="nt:unstructured"
+                            component="wishlist"/>
+                        <item2
+                            jcr:primaryType="nt:unstructured"
+                            component="shopcart"/>
+                        <item3
+                            jcr:primaryType="nt:unstructured"
+                            component="setting__bar__icon"/>
+                    </headerSideBarList>
+                    <Mobile_x0020_Menu
+                        jcr:lastModified="{Date}2021-10-30T16:21:29.388+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="boighor/components/content/custom-component/mobile-menu">
+                        <mobileMenuList jcr:primaryType="nt:unstructured">
+                            <item0
+                                jcr:primaryType="nt:unstructured"
+                                link="/content/boighor/us/en/index"
+                                title="Home"/>
+                            <item1
+                                jcr:primaryType="nt:unstructured"
+                                isParent="yes"
+                                link="/content/boighor/us/en/index"
+                                title="Pages">
+                                <mobileMenuInnerList jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        jcr:primaryType="nt:unstructured"
+                                        isParent="yes"
+                                        link="/content/boighor/us/en/index"
+                                        title="About Page"/>
+                                    <item1
+                                        jcr:primaryType="nt:unstructured"
+                                        isParent="yes"
+                                        link="/content/boighor/us/en/index"
+                                        title="Portfolio">
+                                        <mobileMenuSubInnerList jcr:primaryType="nt:unstructured">
+                                            <item0
+                                                jcr:primaryType="nt:unstructured"
+                                                link="/content/boighor/us/en/index"
+                                                title="Portfolio"/>
+                                            <item1
+                                                jcr:primaryType="nt:unstructured"
+                                                link="/content/boighor/us/en/index"
+                                                title="Portfolio Details"/>
+                                        </mobileMenuSubInnerList>
+                                    </item1>
+                                    <item2
+                                        jcr:primaryType="nt:unstructured"
+                                        link="/content/boighor/us/en/index"
+                                        title="My Account"/>
+                                    <item3
+                                        jcr:primaryType="nt:unstructured"
+                                        link="/content/boighor/us/en/index"
+                                        title="Cart Page"/>
+                                    <item4
+                                        jcr:primaryType="nt:unstructured"
+                                        link="/content/boighor/us/en/index"
+                                        title="Checkout Page"/>
+                                    <item5
+                                        jcr:primaryType="nt:unstructured"
+                                        link="/content/boighor/us/en/index"
+                                        title="Wishlist Page"/>
+                                    <item6
+                                        jcr:primaryType="nt:unstructured"
+                                        link="/content/boighor/us/en/index"
+                                        title="404 Page"/>
+                                    <item7
+                                        jcr:primaryType="nt:unstructured"
+                                        link="/content/boighor/us/en/index"
+                                        title="Faq Page"/>
+                                    <item8
+                                        jcr:primaryType="nt:unstructured"
+                                        link="/content/boighor/us/en/index"
+                                        title="Team Page"/>
+                                </mobileMenuInnerList>
+                            </item1>
+                            <item2
+                                jcr:primaryType="nt:unstructured"
+                                isParent="yes"
+                                link="/content/boighor/us/en/index"
+                                title="Shop">
+                                <mobileMenuInnerList jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        jcr:primaryType="nt:unstructured"
+                                        link="/content/boighor/us/en/index"
+                                        title="Shop Grid"/>
+                                    <item1
+                                        jcr:primaryType="nt:unstructured"
+                                        link="/content/boighor/us/en/index"
+                                        title="Single Product"/>
+                                </mobileMenuInnerList>
+                            </item2>
+                            <item3
+                                jcr:primaryType="nt:unstructured"
+                                isParent="yes"
+                                link="/content/boighor/us/en/index"
+                                title="Blog">
+                                <mobileMenuInnerList jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        jcr:primaryType="nt:unstructured"
+                                        title="Blog Page"/>
+                                    <item1
+                                        jcr:primaryType="nt:unstructured"
+                                        link="/content/boighor/us/en/index"
+                                        title="Blog Details"/>
+                                </mobileMenuInnerList>
+                            </item3>
+                            <item4
+                                jcr:primaryType="nt:unstructured"
+                                link="/content/boighor/us/en/index"
+                                title="Contact"/>
+                        </mobileMenuList>
+                    </Mobile_x0020_Menu>
+                </header_body_1267245506>
+            </responsivegrid>
+        </root>
+    </jcr:content>
+</jcr:root>

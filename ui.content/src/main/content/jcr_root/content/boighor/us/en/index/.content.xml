@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2021-10-29T11:01:06.595+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/boighor/settings/wcm/templates/boighor-base-template"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Home"
+        sling:resourceType="boighor/components/structure/boighor-page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <responsivegrid
+                jcr:lastModified="{Date}2021-10-25T18:13:43.642+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+                <search_popup_2102594905
+                    jcr:created="{Date}2021-10-26T16:55:39.630+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-10-26T16:55:39.630+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="boighor/components/content/custom-component/search-popup"/>
+                <slider_area
+                    jcr:created="{Date}2021-10-29T11:01:06.587+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-10-29T11:01:06.587+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="boighor/components/content/custom-component/slider-area"/>
+                <best_seller_area
+                    jcr:created="{Date}2021-10-26T18:09:09.541+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-10-27T12:57:06.924+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="boighor/components/content/custom-component/best-seller-area"
+                    description="There are many variations of passages of Lorem Ipsum available, but the majority have suffered duskam alteration variations of passages"
+                    title1="New "
+                    title2="Products">
+                    <bestSellerProducts jcr:primaryType="nt:unstructured">
+                        <item0
+                            jcr:primaryType="nt:unstructured"
+                            hotLabel="BEST SALLER"
+                            image1="/content/dam/boighor/images/books/1.jpg"
+                            image2="/content/dam/boighor/images/books/2.jpg"
+                            oldPrize="35"
+                            prize="35"
+                            productTitle="robin parrish"/>
+                        <item1
+                            jcr:primaryType="nt:unstructured"
+                            hotLabel="HOT"
+                            image1="/content/dam/boighor/images/books/3.jpg"
+                            image2="/content/dam/boighor/images/books/4.jpg"
+                            oldPrize="35"
+                            prize="35"
+                            productTitle="The Remainng"/>
+                        <item2
+                            jcr:primaryType="nt:unstructured"
+                            hotLabel="BEST SALLER"
+                            image1="/content/dam/boighor/images/books/5.jpg"
+                            image2="/content/dam/boighor/images/books/6.jpg"
+                            oldPrize="35"
+                            prize="40"
+                            productTitle="Bowen Greenwood"/>
+                        <item3
+                            jcr:primaryType="nt:unstructured"
+                            hotLabel="HOT"
+                            image1="/content/dam/boighor/images/books/7.jpg"
+                            image2="/content/dam/boighor/images/books/8.jpg"
+                            oldPrize="50"
+                            prize="35"
+                            productTitle="Lando"/>
+                        <item4
+                            jcr:primaryType="nt:unstructured"
+                            hotLabel="HOT"
+                            image1="/content/dam/boighor/images/books/9.jpg"
+                            image2="/content/dam/boighor/images/books/10.jpg"
+                            oldPrize="35"
+                            prize="35"
+                            productTitle="Doctor Wldo"/>
+                        <item5
+                            jcr:primaryType="nt:unstructured"
+                            hotLabel="BEST SALLER"
+                            image1="/content/dam/boighor/images/books/11.jpg"
+                            image2="/content/dam/boighor/images/books/12.jpg"
+                            oldPrize="35"
+                            prize="50"
+                            productTitle="Ghost"/>
+                    </bestSellerProducts>
+                </best_seller_area>
+                <newsletter_area
+                    jcr:created="{Date}2021-10-27T14:51:31.629+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-10-27T14:56:17.225+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="boighor/components/content/custom-component/newsletter-area"
+                    buttonTitle="Subscribe"
+                    sectionDescription="Subscribe to our newsletters now and stay up-to-date with new collections, the latest lookbooks and exclusive offers."
+                    sectionTitle="Stay With Us"/>
+                <all_products
+                    jcr:created="{Date}2021-10-28T11:42:15.473+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-10-28T15:38:27.512+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="boighor/components/content/custom-component/all-products"
+                    description="There are many variations of passages of Lorem Ipsum available, but the majority have suffered duskam alteration variations of passages"
+                    title="All Products">
+                    <productType jcr:primaryType="nt:unstructured">
+                        <item0
+                            jcr:primaryType="nt:unstructured"
+                            isActive="Yes"
+                            type="#nav-all"
+                            typeTitle="ALL1"/>
+                        <item1
+                            jcr:primaryType="nt:unstructured"
+                            type="#nav-biographic"
+                            typeTitle="BIOGRAPHIC"/>
+                        <item2
+                            jcr:primaryType="nt:unstructured"
+                            type="#nav-adventure"
+                            typeTitle="ADVENTURE"/>
+                        <item3
+                            jcr:primaryType="nt:unstructured"
+                            type="#nav-children"
+                            typeTitle="CHILDREN"/>
+                        <item4
+                            jcr:primaryType="nt:unstructured"
+                            type="#nav-cook"
+                            typeTitle="COOK"/>
+                    </productType>
+                    <allProducts jcr:primaryType="nt:unstructured">
+                        <item0
+                            jcr:primaryType="nt:unstructured"
+                            hotLabel="BEST SALLER"
+                            image1="/content/dam/boighor/images/books/1.jpg"
+                            image2="/content/dam/boighor/images/books/2.jpg"
+                            oldPrize="35"
+                            prize="50"
+                            productTitle="Ghost"/>
+                    </allProducts>
+                    <biographicProducts jcr:primaryType="nt:unstructured">
+                        <item0
+                            jcr:primaryType="nt:unstructured"
+                            hotLabel="BEST SALLER"
+                            image1="/content/dam/boighor/images/books/1.jpg"
+                            image2="/content/dam/boighor/images/books/2.jpg"
+                            oldPrize="35"
+                            prize="40"
+                            productTitle="Bowen Greenwood"/>
+                    </biographicProducts>
+                    <adventureProducts jcr:primaryType="nt:unstructured">
+                        <item0
+                            jcr:primaryType="nt:unstructured"
+                            hotLabel="HOT"
+                            image1="/content/dam/boighor/images/books/11.jpg"
+                            image2="/content/dam/boighor/images/books/4.jpg"
+                            oldPrize="35"
+                            prize="40"
+                            productTitle="Bowen Greenwood"/>
+                    </adventureProducts>
+                    <childrenProducts jcr:primaryType="nt:unstructured">
+                        <item0
+                            jcr:primaryType="nt:unstructured"
+                            hotLabel="BEST SALLER"
+                            image1="/content/dam/boighor/images/books/4.jpg"
+                            image2="/content/dam/boighor/images/books/4.jpg"
+                            oldPrize="35"
+                            prize="40"
+                            productTitle="Bowen Greenwood"/>
+                    </childrenProducts>
+                    <cookProducts jcr:primaryType="nt:unstructured">
+                        <item0
+                            jcr:primaryType="nt:unstructured"
+                            hotLabel="HOT"
+                            image1="/content/dam/boighor/images/books/7.jpg"
+                            image2="/content/dam/boighor/images/books/12.jpg"
+                            oldPrize="25"
+                            prize="40"
+                            productTitle="Bowen Greenwood"/>
+                    </cookProducts>
+                </all_products>
+                <recent_post_area_cf
+                    jcr:created="{Date}2021-10-30T18:06:15.164+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-10-30T18:10:50.565+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="boighor/components/content/custom-component/recent-post-area-cf"
+                    cfdata="/content/dam/boighor/blogs/blog"
+                    description="There are many variations of passages of Lorem Ipsum available, but the majority have suffered duskam alteration variations of passages"
+                    title="Our Blog"/>
+                <sale_area
+                    jcr:created="{Date}2021-10-27T17:25:27.494+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-10-27T18:47:55.111+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="boighor/components/content/custom-component/sale-area"
+                    description="There are many variations of passages of Lorem Ipsum available, but the majority have suffered duskam alteration variations of passages"
+                    title="Best Seller">
+                    <saleProducts jcr:primaryType="nt:unstructured">
+                        <item0
+                            jcr:primaryType="nt:unstructured"
+                            index="-3"
+                            productLink="/content/dam/boighor/images/best-sell-product/1.jpg"/>
+                        <item1
+                            jcr:primaryType="nt:unstructured"
+                            index="-2"
+                            productLink="/content/dam/boighor/images/best-sell-product/2.jpg"/>
+                        <item2
+                            jcr:primaryType="nt:unstructured"
+                            index="-1"
+                            productLink="/content/dam/boighor/images/best-sell-product/3.jpg"/>
+                        <item3
+                            jcr:primaryType="nt:unstructured"
+                            index="0"
+                            productLink="/content/dam/boighor/images/best-sell-product/4.jpg"/>
+                        <item4
+                            jcr:primaryType="nt:unstructured"
+                            index="1"
+                            productLink="/content/dam/boighor/images/best-sell-product/5.jpg"/>
+                        <item5
+                            jcr:primaryType="nt:unstructured"
+                            index="2"
+                            productLink="/content/dam/boighor/images/best-sell-product/6.jpg"/>
+                        <item6
+                            jcr:primaryType="nt:unstructured"
+                            index="3"
+                            productLink="/content/dam/boighor/images/best-sell-product/7.jpg"/>
+                        <item7
+                            jcr:primaryType="nt:unstructured"
+                            index="4"
+                            productLink="/content/dam/boighor/images/best-sell-product/8.jpg"/>
+                    </saleProducts>
+                </sale_area>
+            </responsivegrid>
+        </root>
+    </jcr:content>
+</jcr:root>

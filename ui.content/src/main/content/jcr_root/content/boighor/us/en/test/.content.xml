@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2021-10-30T18:54:08.245+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/boighor/settings/wcm/templates/boighor-base-template"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Test"
+        sling:resourceType="boighor/components/structure/boighor-page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <responsivegrid
+                jcr:created="{Date}2021-10-26T16:48:37.952+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-10-26T16:53:47.096+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+                <best_seller_area
+                    jcr:created="{Date}2021-10-28T17:12:26.267+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-10-28T18:32:05.948+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="boighor/components/content/custom-component/best-seller-area"
+                    description="ahdj sjh kjh"
+                    title1="qeh"
+                    title2="kejh">
+                    <bestSellerProducts jcr:primaryType="nt:unstructured">
+                        <item0
+                            jcr:primaryType="nt:unstructured"
+                            hotLabel="BEST SALLER"
+                            image1="/content/dam/boighor/images/books/4.jpg"
+                            image2="/content/dam/boighor/images/books/4.jpg"
+                            oldPrize="35"
+                            prize="20"
+                            productTitle="wjerh"/>
+                        <item1
+                            jcr:primaryType="nt:unstructured"
+                            hotLabel="HOT"
+                            image1="/content/dam/boighor/images/books/4.jpg"
+                            image2="/content/dam/boighor/images/books/5.jpg"
+                            oldPrize="65"
+                            prize="55"
+                            productTitle="Image2"/>
+                        <item2
+                            jcr:primaryType="nt:unstructured"
+                            hotLabel="BEST SALLER"
+                            image1="/content/dam/boighor/images/books/10.jpg"
+                            image2="/content/dam/boighor/images/books/10.jpg"
+                            oldPrize="10"
+                            prize="100"
+                            productTitle="image2"/>
+                        <item3
+                            jcr:primaryType="nt:unstructured"
+                            hotLabel="HOT"
+                            image1="/content/dam/boighor/images/books/3.jpg"
+                            image2="/content/dam/boighor/images/books/10.jpg"
+                            oldPrize="345"
+                            prize="45"
+                            productTitle="Image3"/>
+                        <item4
+                            jcr:primaryType="nt:unstructured"
+                            hotLabel="HOT"
+                            image1="/content/dam/boighor/images/books/10.jpg"
+                            image2="/content/dam/boighor/images/books/4.jpg"
+                            oldPrize="345"
+                            prize="34"
+                            productTitle="Image 4"/>
+                    </bestSellerProducts>
+                </best_seller_area>
+                <recent_post_area_cf
+                    jcr:created="{Date}2021-10-30T18:06:15.164+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-10-30T18:54:08.234+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="boighor/components/content/custom-component/recent-post-area-cf"
+                    cfdata="/content/dam/boighor/blogs/blog"
+                    description="There are many variations of passages of Lorem Ipsum available, but the majority have suffered duskam alteration variations of passages"
+                    title="Our Blog"/>
+                <recent_post_area
+                    jcr:created="{Date}2021-10-27T15:04:05.810+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-10-27T17:25:17.886+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="boighor/components/content/custom-component/recent-post-area"
+                    description="There are many variations of passages of Lorem Ipsum available, but the majority have suffered duskam alteration variations of passages"
+                    title="Our Blog23">
+                    <blogs jcr:primaryType="nt:unstructured">
+                        <item0
+                            jcr:primaryType="nt:unstructured"
+                            blogDescription="We are proud to announce the very first the edition of the frankfurt news.We are proud to announce the very first of edition of the fault frankfurt news for us."
+                            blogLink="/content/boighor/us/en/index"
+                            blogTitle="International activities of the Frankfurt Book"
+                            commnentCount="77"
+                            date="Dec 06, 18"
+                            likeCount="72"/>
+                        <item1
+                            jcr:primaryType="nt:unstructured"
+                            blogDescription="Find all the information you need to ensure your experience.Find all the information you need to ensure your experience . Find all the information you of."
+                            blogLink="/content/boighor/us/en/index"
+                            blogTitle="Reading has a signficant info number of benefits"
+                            commnentCount="27"
+                            date=" Mar 08, 18"
+                            likeCount="72"/>
+                        <item2
+                            jcr:primaryType="nt:unstructured"
+                            blogDescription="The London Book Fair is the global area inon marketplace for rights negotiation.The year London Book Fair is the global area inon forg marketplace for rights"
+                            blogLink="/content/boighor/us/en/index"
+                            blogTitle="The London Book Fair is to be packed with exciting "
+                            commnentCount="27"
+                            date=" Nov 11, 18"
+                            likeCount="72"/>
+                    </blogs>
+                </recent_post_area>
+            </responsivegrid>
+        </root>
+    </jcr:content>
+</jcr:root>

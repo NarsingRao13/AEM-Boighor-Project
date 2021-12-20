@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="7f2556cc-5875-43aa-955d-f1dd63ec0d8b">
+    <jcr:content
+        cq:name="blog"
+        cq:parentPath="/content/dam/boighor/blogs"
+        jcr:description=""
+        jcr:lastModified="{Date}2021-10-30T18:45:53.599+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Blog"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2021-10-30T18:45:53.599+05:30">
+        <data
+            cq:model="/conf/boighor/settings/dam/cfm/models/blog-model"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[cq:Taggable]"
+                jcr:primaryType="nt:unstructured"
+                commentCount_x0040_LastModified="{Date}2021-10-30T17:54:21.815+05:30"
+                date_x0040_LastModified="{Date}2021-10-30T17:54:21.815+05:30"
+                description_x0040_LastModified="{Date}2021-10-30T17:54:21.815+05:30"
+                likesCount_x0040_LastModified="{Date}2021-10-30T17:54:21.815+05:30"
+                title_x0040_LastModified="{Date}2021-10-30T17:54:21.815+05:30"/>
+            <_x0031_
+                jcr:mixinTypes="[cq:Taggable]"
+                jcr:primaryType="nt:unstructured"
+                commentCount="{Double}27.0"
+                commentCount_x0040_LastModified="{Date}2021-10-30T18:45:53.564+05:30"
+                date="Dec 06, 18"
+                date_x0040_LastModified="{Date}2021-10-30T18:45:53.563+05:30"
+                description="We are proud to announce the very first the edition of the frankfurt news.We are proud to announce the very first of  edition of the fault frankfurt news for us."
+                description_x0040_LastModified="{Date}2021-10-30T18:45:53.562+05:30"
+                likesCount="{Double}72.0"
+                likesCount_x0040_LastModified="{Date}2021-10-30T18:45:53.563+05:30"
+                path="/content/boighor/us/en/index"
+                path_x0040_LastModified="{Date}2021-10-30T18:45:53.562+05:30"
+                title="International activities of the Frankfurt Book "
+                title_x0040_LastModified="{Date}2021-10-30T18:45:53.561+05:30"/>
+            <_x0032_
+                jcr:mixinTypes="[cq:Taggable]"
+                jcr:primaryType="nt:unstructured"
+                commentCount="{Double}27.0"
+                commentCount_x0040_LastModified="{Date}2021-10-30T18:45:46.312+05:30"
+                date="Mar 08, 18"
+                date_x0040_LastModified="{Date}2021-10-30T18:45:46.311+05:30"
+                description="Find all the information you need to ensure your experience.Find all the information you need to ensure your experience . Find all the information you of."
+                description_x0040_LastModified="{Date}2021-10-30T18:45:46.311+05:30"
+                likesCount="{Double}72.0"
+                likesCount_x0040_LastModified="{Date}2021-10-30T18:45:46.311+05:30"
+                path="/content/boighor/us/en/index"
+                path_x0040_LastModified="{Date}2021-10-30T18:45:46.311+05:30"
+                title="Reading has a signficant info  number of benefits"
+                title_x0040_LastModified="{Date}2021-10-30T18:45:46.310+05:30"/>
+            <_x0033_
+                jcr:mixinTypes="[cq:Taggable]"
+                jcr:primaryType="nt:unstructured"
+                commentCount="{Double}21.0"
+                commentCount_x0040_LastModified="{Date}2021-10-30T18:45:39.510+05:30"
+                date="Nov 11, 18"
+                date_x0040_LastModified="{Date}2021-10-30T18:45:39.509+05:30"
+                description="The London Book Fair is the global area inon marketplace for rights negotiation.The year  London Book Fair is the global area inon forg marketplace for rights."
+                description_x0040_LastModified="{Date}2021-10-30T18:45:39.509+05:30"
+                likesCount="{Double}12.0"
+                likesCount_x0040_LastModified="{Date}2021-10-30T18:45:39.510+05:30"
+                path="/content/boighor/us/en/index"
+                path_x0040_LastModified="{Date}2021-10-30T18:45:39.509+05:30"
+                title="The London Book Fair is to be packed with exciting "
+                title_x0040_LastModified="{Date}2021-10-30T18:45:39.508+05:30"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <model jcr:primaryType="nt:unstructured">
+            <variations jcr:primaryType="nt:unstructured">
+                <_x0031_
+                    jcr:description=""
+                    jcr:mixinTypes="[cq:Taggable]"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="1"
+                    name="1">
+                    <properties
+                        jcr:primaryType="nt:unstructured"
+                        synchronizeWithVersion="[title:c2571dc9-a879-433d-9231-2a8a1e39c68e,description:c2571dc9-a879-433d-9231-2a8a1e39c68e,date:c2571dc9-a879-433d-9231-2a8a1e39c68e,likesCount:c2571dc9-a879-433d-9231-2a8a1e39c68e,commentCount:c2571dc9-a879-433d-9231-2a8a1e39c68e]"/>
+                </_x0031_>
+                <_x0032_
+                    jcr:description=""
+                    jcr:mixinTypes="[cq:Taggable]"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="2"
+                    name="2">
+                    <properties
+                        jcr:primaryType="nt:unstructured"
+                        synchronizeWithVersion="[title:caaecd67-d56b-485c-877b-c3076fe1ded1,description:caaecd67-d56b-485c-877b-c3076fe1ded1,date:caaecd67-d56b-485c-877b-c3076fe1ded1,likesCount:caaecd67-d56b-485c-877b-c3076fe1ded1,commentCount:caaecd67-d56b-485c-877b-c3076fe1ded1]"/>
+                </_x0032_>
+                <_x0033_
+                    jcr:description=""
+                    jcr:mixinTypes="[cq:Taggable]"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="3"
+                    name="3">
+                    <properties
+                        jcr:primaryType="nt:unstructured"
+                        synchronizeWithVersion="[title:aa42148f-906e-418e-abc2-450597d57c23,description:aa42148f-906e-418e-abc2-450597d57c23,date:aa42148f-906e-418e-abc2-450597d57c23,likesCount:aa42148f-906e-418e-abc2-450597d57c23,commentCount:aa42148f-906e-418e-abc2-450597d57c23]"/>
+                </_x0033_>
+            </variations>
+        </model>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

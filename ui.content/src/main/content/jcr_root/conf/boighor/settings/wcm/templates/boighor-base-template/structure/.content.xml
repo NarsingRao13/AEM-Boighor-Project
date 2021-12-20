@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:deviceGroups="[/etc/mobile/groups/responsive]"
+        cq:lastModified="{Date}2021-10-30T16:42:37.209+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/boighor/settings/wcm/templates/boighor-base-template"
+        jcr:primaryType="cq:PageContent"
+        sling:resourceType="boighor/components/structure/boighor-page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <experiencefragment
+                jcr:created="{Date}2021-10-30T16:41:43.311+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-10-30T16:41:58.003+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="boighor/components/content/experiencefragment"
+                fragmentVariationPath="/content/experience-fragments/boighor/us/en/site/custom-header/master"/>
+            <responsivegrid
+                jcr:created="{Date}2021-10-26T16:48:37.952+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-10-26T16:48:37.952+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid"
+                editable="{Boolean}true">
+                <cq:responsive jcr:primaryType="nt:unstructured"/>
+            </responsivegrid>
+            <footer
+                jcr:created="{Date}2021-10-26T16:48:47.577+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-10-26T18:35:11.836+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="boighor/components/content/custom-component/footer"
+                copyrightText="&lt;p>Copyright &lt;i class=&quot;fa fa-copyright&quot;>&lt;/i> &lt;a href=&quot;https://freethemescloud.com/&quot;>Free themes Cloud.&lt;/a> All Rights Reserved&lt;/p>"
+                description="There are many variations of passages of Lorem Ipsum available, but the majority have suffered duskam alteration variations of passages"
+                logo="/content/dam/boighor/images/logo/3.png"
+                logoAlterTitle="logo"
+                logoLInkURL="/content/boighor/us/en/indexl"
+                payment="/content/dam/boighor/images/icons/payment.png">
+                <socialIcons jcr:primaryType="nt:unstructured">
+                    <item0
+                        jcr:primaryType="nt:unstructured"
+                        icon="bi bi-facebook"/>
+                    <item1
+                        jcr:primaryType="nt:unstructured"
+                        icon="bi bi-google"/>
+                    <item2
+                        jcr:primaryType="nt:unstructured"
+                        icon="bi bi-twitter"/>
+                    <item3
+                        jcr:primaryType="nt:unstructured"
+                        icon="bi bi-linkedin"/>
+                    <item4
+                        jcr:primaryType="nt:unstructured"
+                        icon="bi bi-youtube"/>
+                </socialIcons>
+                <footerTags jcr:primaryType="nt:unstructured">
+                    <item0
+                        jcr:primaryType="nt:unstructured"
+                        tagLink="/content/boighor/us/en/index"
+                        tagTitle="Trending"/>
+                    <item1
+                        jcr:primaryType="nt:unstructured"
+                        tagLink="/content/boighor/us/en/index"
+                        tagTitle="Best Seller"/>
+                    <item2
+                        jcr:primaryType="nt:unstructured"
+                        tagLink="/content/boighor/us/en/index"
+                        tagTitle="All Product"/>
+                    <item3
+                        jcr:primaryType="nt:unstructured"
+                        tagLink="/content/boighor/us/en/index"
+                        tagTitle="Wishlist"/>
+                    <item4
+                        jcr:primaryType="nt:unstructured"
+                        tagLink="/content/boighor/us/en/index"
+                        tagTitle="Blog"/>
+                    <item5
+                        jcr:primaryType="nt:unstructured"
+                        tagLink="/content/boighor/us/en/index"
+                        tagTitle="Contact"/>
+                </footerTags>
+            </footer>
+        </root>
+        <cq:responsive jcr:primaryType="nt:unstructured">
+            <breakpoints jcr:primaryType="nt:unstructured">
+                <phone
+                    jcr:primaryType="nt:unstructured"
+                    title="Smaller Screen"
+                    width="{Long}768"/>
+                <tablet
+                    jcr:primaryType="nt:unstructured"
+                    title="Tablet"
+                    width="{Long}1200"/>
+            </breakpoints>
+        </cq:responsive>
+    </jcr:content>
+</jcr:root>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:D="DAV:" xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:mixinTypes="[mix:referenceable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="b16698da-67cd-412c-96da-c81b11608e7b">
+    <jcr:content
+        D:getlastmodified="Sun, 10 Jun 2018 06:01:00 GMT"
+        dam:assetState="processed"
+        jcr:lastModified="{Date}2021-10-25T18:07:05.504+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:Bitsperpixel="{Long}32"
+            dam:Comments="Software: Adobe ImageReady&#xa;XML:com.adobe.xmp: &lt;?xpacket begin=&quot;﻿&quot; id=&quot;W5M0MpCehiHzreSzNTczkc9d&quot;?> &lt;x:xmpmeta xmlns:x=&quot;adobe:ns:meta/&quot; x:xmptk=&quot;Adobe XMP Core 5.3-c011 66.145661, 2012/02/06-14:56:27        &quot;> &lt;rdf:RDF xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;> &lt;rdf:Description rdf:about=&quot;&quot; xmlns:xmp=&quot;http://ns.adobe.com/xap/1.0/&quot; xmlns:xmpMM=&quot;http://ns.adobe.com/xap/1.0/mm/&quot; xmlns:stRef=&quot;http://ns.adobe.com/xap/1.0/sType/ResourceRef#&quot; xmp:CreatorTool=&quot;Adobe Photoshop CS6 (Windows)&quot; xmpMM:InstanceID=&quot;xmp.iid:74806C8B6C6F11E8A19DA1B460F8CC1D&quot; xmpMM:DocumentID=&quot;xmp.did:74806C8C6C6F11E8A19DA1B460F8CC1D&quot;> &lt;xmpMM:DerivedFrom stRef:instanceID=&quot;xmp.iid:74806C896C6F11E8A19DA1B460F8CC1D&quot; stRef:documentID=&quot;xmp.did:74806C8A6C6F11E8A19DA1B460F8CC1D&quot;/> &lt;/rdf:Description> &lt;/rdf:RDF> &lt;/x:xmpmeta> &lt;?xpacket end=&quot;r&quot;?>&#xa;"
+            dam:extracted="{Date}2021-10-25T18:07:05.351+05:30"
+            dam:Fileformat="PNG"
+            dam:MIMEtype="image/png"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}2"
+            dam:Physicalheightindpi="{Long}-1"
+            dam:Physicalheightininches="{Decimal}-1.0"
+            dam:Physicalwidthindpi="{Long}-1"
+            dam:Physicalwidthininches="{Decimal}-1.0"
+            dam:Progressive="no"
+            dam:sha1="e749102c6267c6f3190684d081b4399c8a13ae07"
+            dam:size="{Long}1218"
+            dc:format="image/png"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            tiff:ImageLength="{Long}17"
+            tiff:ImageWidth="{Long}18"
+            xmp:CreatorTool="Adobe Photoshop CS6 (Windows)"
+            xmpMM:DocumentID="xmp.did:74806C8C6C6F11E8A19DA1B460F8CC1D"
+            xmpMM:InstanceID="xmp.iid:74806C8B6C6F11E8A19DA1B460F8CC1D">
+            <xmpMM:DerivedFrom
+                jcr:primaryType="nt:unstructured"
+                stRef:documentID="xmp.did:74806C8A6C6F11E8A19DA1B460F8CC1D"
+                stRef:instanceID="xmp.iid:74806C896C6F11E8A19DA1B460F8CC1D"
+                xmpNodeType="xmpStruct"/>
+        </metadata>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>
